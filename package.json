@@ -1,0 +1,23 @@
+{
+  "name": "npm-css-test",
+  "version": "0.1.0",
+  "description": "A test case for sharing css code via npm",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:asimpson/npm-css-test.git"
+  },
+  "scripts": {
+    "start": "node-sass base.scss base.css -o ./ --include-path=node_modules"
+  },
+  "keywords": [
+    "css",
+    "npm"
+  ],
+  "author": "Adam Simpson",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.0",
+    "npm-share-css-test": "^0.1.0"
+  }
+}
